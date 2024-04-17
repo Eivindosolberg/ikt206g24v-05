@@ -2,8 +2,12 @@ version: '3.8'
 
 services:
   web:
+    build:
+      context: .
+      target: final
     ports:
-      - "8080:8080"  
+      - "8080:80"  
+        
 
   db:
     image: postgres
