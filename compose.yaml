@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  web:
+    image: eividos/ass5
+    ports:
+      - "8080:8080"  
+
+  db:
+    image: postgres
+    volumes:
+      - postgres_data:/var/lib/postgresql/data # Persistent data storage
+    environment:
+      POSTGRES_DB: postgres
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 1234.
+    ports:
+      - "5433:5432" 
+
+  proxy:
+    image: caddy
+    ports:
+      - "80:80"   # HTTP traffic
+      - "443:443" # HTTPS traffic
+    volumes:
+      - ./Caddy/data:/data
+      - ./Caddy/config:/config
+      - ./Caddy/Caddyfile:/etc/caddy/Caddyfile
+
+volumes:
+  postgres_data:

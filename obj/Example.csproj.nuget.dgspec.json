@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\47984\\ikt206\\ikt206g24v-05\\Example.csproj": {}
+    "c:\\Users\\47984\\ikt206\\ikt206g24v-05\\Example.csproj": {}
   },
   "projects": {
-    "C:\\Users\\47984\\ikt206\\ikt206g24v-05\\Example.csproj": {
+    "c:\\Users\\47984\\ikt206\\ikt206g24v-05\\Example.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\47984\\ikt206\\ikt206g24v-05\\Example.csproj",
+        "projectUniqueName": "c:\\Users\\47984\\ikt206\\ikt206g24v-05\\Example.csproj",
         "projectName": "Example",
-        "projectPath": "C:\\Users\\47984\\ikt206\\ikt206g24v-05\\Example.csproj",
+        "projectPath": "c:\\Users\\47984\\ikt206\\ikt206g24v-05\\Example.csproj",
         "packagesPath": "C:\\Users\\47984\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\47984\\ikt206\\ikt206g24v-05\\obj\\",
+        "outputPath": "c:\\Users\\47984\\ikt206\\ikt206g24v-05\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\47984\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -50,17 +50,33 @@
               "target": "Package",
               "version": "[8.0.2, )"
             },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[8.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.2, )"
+              "version": "[8.0.4, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[8.0.1, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.2, )"
             }
           },
           "imports": [
