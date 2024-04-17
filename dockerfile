@@ -26,8 +26,4 @@ FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS final
 WORKDIR /app
 COPY --from=build-env /app/out .
 
-# Copy wait-for-it.sh into the image
-COPY wait-for-it.sh /wait-for-it.sh
-RUN chmod +x /wait-for-it.sh
-
 ENTRYPOINT ["db:5432", "--", "dotnet", "Example.dll" ]
