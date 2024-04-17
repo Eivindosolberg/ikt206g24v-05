@@ -25,7 +25,9 @@ services:
     volumes:
       - ./Caddy/data:/data
       - ./Caddy/config:/config
-      - ./Caddy/Caddyfile:/etc/Caddyfile
+      - ./Caddy/Caddyfile:/etc/caddy/Caddyfile
 
 volumes:
   postgres_data:
+  caddy_data:
+  caddy_config:

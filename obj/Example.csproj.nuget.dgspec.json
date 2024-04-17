@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\47984\\ikt206\\ikt206g24v-05\\Example.csproj": {}
+    "C:\\Users\\47984\\ikt206\\ikt206g24v-05\\Example.csproj": {}
   },
   "projects": {
-    "c:\\Users\\47984\\ikt206\\ikt206g24v-05\\Example.csproj": {
+    "C:\\Users\\47984\\ikt206\\ikt206g24v-05\\Example.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\47984\\ikt206\\ikt206g24v-05\\Example.csproj",
+        "projectUniqueName": "C:\\Users\\47984\\ikt206\\ikt206g24v-05\\Example.csproj",
         "projectName": "Example",
-        "projectPath": "c:\\Users\\47984\\ikt206\\ikt206g24v-05\\Example.csproj",
+        "projectPath": "C:\\Users\\47984\\ikt206\\ikt206g24v-05\\Example.csproj",
         "packagesPath": "C:\\Users\\47984\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\47984\\ikt206\\ikt206g24v-05\\obj\\",
+        "outputPath": "C:\\Users\\47984\\ikt206\\ikt206g24v-05\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\47984\\AppData\\Roaming\\NuGet\\NuGet.Config"
